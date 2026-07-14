@@ -21,15 +21,6 @@ An interactive origami game built with **Phaser** and **Devvit**, allowing Reddi
 - Vite
 - Hono
 
-## 📸 Screenshots
-
-> Add screenshots of:
-- Main Menu
-- Level Selection
-- Gameplay
-- Journey
-- Settings
-- Result Screen
 
 ## 🚀 Getting Started
 
