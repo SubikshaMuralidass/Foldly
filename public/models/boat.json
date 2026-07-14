@@ -1,0 +1,144 @@
+{
+  "id": "boat",
+  "name": "Boat",
+  "difficulty": 1,
+  "unlockDay": 0,
+  "estimatedTime": 3,
+  "points": 25,
+  "paper": {
+    "shape": "square",
+    "size": 512
+  },
+  "steps": [
+    {
+      "id": 1,
+      "label": "Fold in half",
+      "instruction": "Fold the paper in half horizontally.",
+      "foldType": "valley",
+      "line": {
+        "from": [0, 256],
+        "to": [512, 256]
+      },
+      "arrow": {
+        "from": [256, 120],
+        "to": [256, 240]
+      }
+    },
+    {
+      "id": 2,
+      "label": "Fold left corner",
+      "instruction": "Fold the upper left corner to the center.",
+      "foldType": "valley",
+      "line": {
+        "from": [256, 0],
+        "to": [0, 256]
+      },
+      "arrow": {
+        "from": [100, 80],
+        "to": [220, 180]
+      }
+    },
+    {
+      "id": 3,
+      "label": "Fold right corner",
+      "instruction": "Fold the upper right corner to the center.",
+      "foldType": "valley",
+      "line": {
+        "from": [256, 0],
+        "to": [512, 256]
+      },
+      "arrow": {
+        "from": [412, 80],
+        "to": [292, 180]
+      }
+    },
+    {
+      "id": 4,
+      "label": "Fold front flap",
+      "instruction": "Fold the bottom front flap upward.",
+      "foldType": "valley",
+      "line": {
+        "from": [0, 384],
+        "to": [512, 384]
+      },
+      "arrow": {
+        "from": [256, 460],
+        "to": [256, 390]
+      }
+    },
+    {
+      "id": 5,
+      "label": "Turn over",
+      "instruction": "Turn the model over.",
+      "foldType": "action",
+      "line": null,
+      "arrow": null
+    },
+    {
+      "id": 6,
+      "label": "Fold back flap",
+      "instruction": "Fold the remaining bottom flap upward.",
+      "foldType": "valley",
+      "line": {
+        "from": [0, 384],
+        "to": [512, 384]
+      },
+      "arrow": {
+        "from": [256, 460],
+        "to": [256, 390]
+      }
+    },
+    {
+      "id": 7,
+      "label": "Open square",
+      "instruction": "Open the model into a square.",
+      "foldType": "action",
+      "line": null,
+      "arrow": null
+    },
+    {
+      "id": 8,
+      "label": "Fold bottom up",
+      "instruction": "Fold the bottom corner upward.",
+      "foldType": "valley",
+      "line": {
+        "from": [0, 384],
+        "to": [512, 384]
+      },
+      "arrow": {
+        "from": [256, 450],
+        "to": [256, 370]
+      }
+    },
+    {
+      "id": 9,
+      "label": "Turn over",
+      "instruction": "Turn the model over.",
+      "foldType": "action",
+      "line": null,
+      "arrow": null
+    },
+    {
+      "id": 10,
+      "label": "Fold bottom up",
+      "instruction": "Fold the remaining bottom corner upward.",
+      "foldType": "valley",
+      "line": {
+        "from": [0, 384],
+        "to": [512, 384]
+      },
+      "arrow": {
+        "from": [256, 450],
+        "to": [256, 370]
+      }
+    },
+    {
+      "id": 11,
+      "label": "Open boat",
+      "instruction": "Pull both sides apart to open the boat.",
+      "foldType": "action",
+      "line": null,
+      "arrow": null
+    }
+  ]
+}

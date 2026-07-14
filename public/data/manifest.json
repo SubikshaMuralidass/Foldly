@@ -1,0 +1,11 @@
+{
+  "models": [
+    {
+      "id": "boat",
+      "name": "Boat",
+      "difficulty": 1,
+      "unlockDay": 0,
+      "estimatedTime": 2
+    }
+  ]
+}

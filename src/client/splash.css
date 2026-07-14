@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Full-screen background */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  background: url("./snoo.png") center center no-repeat;
+  background-size: cover;      /* use contain if you never want cropping */
+
+  padding-bottom: 8vh;
+}
+
+/* START button */
+#start-button {
+  background: linear-gradient(#ff5757, #d81b1b);
+  color: white;
+
+  border: none;
+  border-radius: 16px;
+
+  padding: 18px 60px;
+
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 1px;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 6px 0 #a40f0f,
+    0 12px 24px rgba(0,0,0,.35);
+
+  transition: transform .15s;
+}
+
+#start-button:hover {
+  transform: translateY(-2px);
+}
+
+#start-button:active {
+  transform: translateY(3px);
+}

@@ -1,0 +1,24 @@
+{
+  "papers": [
+    {
+      "id": "white",
+      "name": "White",
+      "texture": "/papers/white.png"
+    },
+    {
+      "id": "sakura",
+      "name": "Sakura",
+      "texture": "/papers/sakura.png"
+    },
+    {
+      "id": "gold",
+      "name": "Golden",
+      "texture": "/papers/gold.png"
+    },
+    {
+      "id": "bamboo",
+      "name": "Bamboo",
+      "texture": "/papers/bamboo.png"
+    }
+  ]
+}
