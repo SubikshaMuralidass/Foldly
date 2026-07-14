@@ -85,4 +85,4 @@ Reddit Devvit Hackathon 2026
 
 ## 📄 License
 
-MIT License
+BSD-3-Clause license
